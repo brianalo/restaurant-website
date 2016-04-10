@@ -21,11 +21,11 @@ body{
 }
 
 h1{
-
+  color: #fff;
 }
 
 p{
-
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
@@ -36,7 +36,7 @@ p{
   }
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 38em) {
 
     body {
       font-size: 120%;
