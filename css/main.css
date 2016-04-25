@@ -16,21 +16,146 @@ html {
   box-sizing: inherit;
 }
 
-body{
+header {
+  border: 2px solid #7e7;
+  background-color: #7e7;
+  font-family: "Georiga", serif;
+  overflow: hidden;
+  width: 100%;
+}
+
+banner-content {
+  width: 90%;
+}
+
+.banner-content {
+  max-width: inherit;
+}
+
+.card-picture-1 {
+  width: 100%;
+  position: relative;
+}
+
+.card-picture-2 {
+  width: 100%;
+}
+
+.card-picture-3 {
+  width: 100%;
+}
+
+body {
+  font-family: "Georiga", serif;
   margin: 0;
+  background-color: #777;
 }
 
-h1{
+p {
+  padding: 0.01em 0.5em;
+  max-width: 25em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: justify;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.card {
+  width: 100%;
+  padding: inherit;
+}
+
+.il {
+  margin-left: 3em;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid #7e7;
+  padding: 0.5em 1em 0.5em;
+  margin: 0;
+  color: #333;
+  background-color: #7e7;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  margin: 3em;
+}
+
+a:hover {
+  background-color: #cc1465;
   color: #fff;
 }
 
-p{
+h1 {
   color: #fff;
+  float: left;
+  width: 40%;
+}
+
+nav {
+  padding-top: 0.5em;
+  font-size: 1.125rem;
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+
+li {
+  float: left;
+}
+
+h2 {
+  color: #666;
+  font-size: 1.875rem;
+  margin-left: 3em;
+}
+
+h3 {
+  color: #3e3;
+  margin-left: 18em;
+}
+
+p {
+  color: #fff;
+  padding: 0.01em 0.5em;
+  max-width: 25em;
+  margin-left: 4em;
+}
+
+section {
+  width: 100%;
 }
 
 .banner-content {
   background-color: #e2e2e2;
   padding: 1em;
+}
+
+img {
+  border: 1em;
+}
+
+.img class {
+  border: 3em;
+  margin: 5em;
+}
+
+footer {
+  background-color: #cfcfcf;
+  font-size: 0.75rem;
+  padding: 1.5em 17.25em 1.5em;
+  height: 25em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -39,15 +164,47 @@ p{
     font-size: 110%;
     line-height: 1.5;
   }
+
+  .body{
+    margin: 1em;
+  }
+  .card-picture-1 {
+    width: 40%;
+  }
+
+  .card-picture-2 {
+    width: 40%;
+  }
+
+  .card-picture-3 {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
-    body {
-      font-size: 120%;
-      line-height: 1.4;
-      padding: 1em;
-    }
+  body {
+    font-size: 120%;
+    line-height: 1.4;
+    padding: 1em;
+  }
+
+  .banner-content {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 1em;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    font-size: 130%;
+  }
 }
 
 @media only screen and (min-width: 90em) {
