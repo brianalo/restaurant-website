@@ -11,11 +11,16 @@
   <header>
     <h1>Market Place</h1>
     <nav>
-      <ul>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/nav-icon.jpg" alt="Open Navigation">
+        <img class="nav-close" src="images/nav-close-icon.jpg" alt="close Navigation">
+      </label>
+      <ul class="nav">
         <li><a class="current" href="index.html">Home</a></li>
-        <li><a href="AboutUs">About Us</a></li>
-        <li><a href="StudentRecommendation">Student Recommendation</a></li>
-        <li><a href="Stayhealthy">Stay Healthy</a></li>
+        <li><a class="about-us" href="#about-card">About Us</a></li>
+        <li><a class="recommendation" href="#rec-card">Recommendation</a></li>
+        <li><a class="stay-healthy" href="#healthy-card">Stay Healthy</a></li>
       </ul>
     </nav>
   </header>
@@ -26,71 +31,97 @@
       <p>Algoquin's biggest food counts with many multi foods to choose from us.</p>
     </div>
   </div>
-  <div class="banner">
-    <div class="">
-      <img class="card-picture-1" src="images/placeholder-1by1.svg" alt="">
+  <div class="card-1">
+    <div class="card-img">
+      <img class="img-flex" src="images/placeholder-2by3.svg" alt="">
+    </div>
+    <div>
       <h3>About Us</h3>
-      <p>Our foods have been the spot for many students. There are some varitey of culture around us. We have some favorites to our belove students on what meal is the best</p>
-      <ul>
-        <li><a href="AboutUs">About Us</a></li>
-      </ul>
+      <p class="about-us-body">Our foods have been the spot for many students. There are some varitey of culture around us. We have some favorites to our belove students on what meal is the best</p>
+      <div>
+        <a class="card-link" href="#about-card">About us</a>
+      </div>
     </div>
   </div>
-  <div class="banner">
-    <div class="">
-      <img class="card-picture-2" src="images/placeholder-1by1.svg" alt="">
-      <h3>Student Recommendation</h3>
-      <p>Students can pick their favorite meals to share. You can share and vote for your favorite meal at the Student recommendation!</p>
-      <main>
-        <ul>
-          <li><a href="StudentRecommendation">StudentRecommendation</a></li>
-        </ul>
-      </main>
+  <div class="card-2">
+    <div class="card-img">
+      <img class="img-flex" src="images/placeholder-2by3.svg" alt="">
+    </div>
+    <div>
+      <h3>Recommendation</h3>
+      <p class="rec-body">Our foods have been the spot for many students. There are some varitey of culture around us. We have some favorites to our belove students on what meal is the best</p>
+      <div>
+        <a class="card-link" href="#rec-card">Recommendation</a>
+      </div>
     </div>
   </div>
-  <div class="banner">
-    <div class="">
-      <img class="card-picture-3" src="images/placeholder-1by1.svg" alt="">
+  <div class="card-3">
+    <div class="card-img">
+      <img class="img-flex" src="images/placeholder-2by3.svg" alt="">
+    </div>
+    <div>
       <h3>Stay Healthy</h3>
-      <p>Take some interesting tips and tricks to keep yourself active and healthy for better and fresher you.</p>
-      <ul>
-        <li><a href="Stayhealthy">Stay Healthy</a></li>
-      </ul>
+      <p class="healthy-body">Our foods have been the spot for many students. There are some varitey of culture around us. We have some favorites to our belove students on what meal is the best</p>
+      <div>
+        <a class="card-link" href="#healthy-card">Stay healthy</a>
+      </div>
     </div>
   </div>
-  <section>
-    <div class="body">
-      <div class="">
-        <h3>About Us</h3>
-        <p>Market Place is Algonquin's biggest food court with it's variety of foods. Located at building D, students can come in different buildings and enjoy the meals prepare at Market Place. Made by our own students at Alogonquin. We are known for our wraps, cultural cuisine, and crepes. We make the best for our students in a friendly co-workers and well-balance meals.</p>
-        <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
+  <main>
+    <section>
+      <div class="body">
+        <div class="body-1">
+          <h3 class="card-link" id="about-card">About us</h3>
+          <p>Market Place is Algonquin's biggest food court with it's variety of foods. Located at building D, students can come in different buildings and enjoy the meals prepare at Market Place. Made by our own students at Alogonquin. We are known for our wraps, cultural cuisine, and crepes. We make the best for our students in a friendly co-workers and well-balance meals.</p>
+          <img class="card-picture-4" src="images/placeholder-3by2.svg" alt="">
+        </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="body">
-      <div class="">
-        <h3>Student Recommendation</h3>
-        <p>Our foods have been the spot for many students. There are some varitey of culture around us. We have some favorites to our belove students on what meal is the best. But which meal is the best? By voting on a favorite dish, it can be display on the website for once a week. The meal is share around the college and it can be made and sold at Market Place. Don't just wait! Vote now and relieve your favorite meal of the week!</p>
-        <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
+    </section>
+    <section>
+      <div class="body">
+        <div class="body-2">
+          <h3 class="card-link" id="rec-card">Recommendation</h3>
+          <p>Our foods have been the spot for many students. There are some varitey of culture around us. We have some favorites to our belove students on what meal is the best. But which meal is the best? By voting on a favorite dish, it can be display on the website for once a week. The meal is share around the college and it can be made and sold at Market Place. Don't just wait! Vote now and relieve your favorite meal of the week!</p>
+          <img class="card-picture-5" src="images/placeholder-golden.svg" alt="">
+        </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="body">
-      <div class="">
-        <h3>Stay Healthy</h3>
-        <p> At algonquin, we always keep our students healthy everyday. We care for our students by providing fruits and vegetables for every meal. A well-balance meal is a way to helps refresh your body and it can also help with attention span, memory, and a youthful skin.</p>
-        <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
-        <p>Keep on exercising to stay fit. Maintaining a good diet and have a strong workout are important keys to help your clean and refresh your body. At algonquin, we have many gyms for our athletic students. Each gym provides equipment for our tough students needs. In order to help fit your body, take at least one or two hours to move around your muscles and you can make sure that you do some warm-ups before doing heavy activites. If you don't do any weights or any rough activity, walking around a park can be a great exercise session without struggles</p>
-        <img class="img-flex" src="images/placeholder-1by1.svg" alt="">
+    </section>
+    <section>
+      <div class="body">
+        <div class="body-3">
+          <h3 class="card-link" id="healthy-card">Stay Healthy</h3>
+          <p> At algonquin, we always keep our students healthy everyday. We care for our students by providing fruits and vegetables for every meal. A well-balance meal is a way to helps refresh your body and it can also help with attention span, memory, and a youthful skin.</p>
+          <img class="card-picture-6" src="images/placeholder-3by2.svg" alt="">
+          <p>Keep on exercising to stay fit. Maintaining a good diet and have a strong workout are important keys to help your clean and refresh your body. At algonquin, we have many gyms for our athletic students. Each gym provides equipment for our tough students needs. In order to help fit your body, take at least one or two hours to move around your muscles and you can make sure that you do some warm-ups before doing heavy activites. If you don't do any weights or any rough activity, walking around a park can be a great exercise session without struggles</p>
+          <img class="card-picture-7" src="images/placeholder-3by2.svg" alt="">
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
   <footer>
-    <small>
-    @copyright
-  </small>
+    <div>
+      <p>@ opyright 2016 Algonquin College</p>
+      <p>Contract</p>
+      <p>4455 address place<br></p>
+      <p>Ottawa, ON<br></p>
+    </div>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com">
+          <img class="icon-1" src="images/facebook-button.jpg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://mobile.twitter.com">
+          <img class="icon-2" src="images/twitter-button.jpg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com">
+          <img class="icon-3" src="images/instagram-button.jpg" alt="">
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>
