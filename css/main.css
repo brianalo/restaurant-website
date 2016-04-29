@@ -17,7 +17,7 @@ html {
 }
 
 header {
-  border: 2px solid #7e7;
+  border: 3px solid #7e7;
   background-color: #7e7;
   font-family: "Georiga", serif;
   overflow: hidden;
@@ -82,6 +82,12 @@ nav {
   display: block;
 }
 
+.banner {
+  width: 109%;
+  margin-right: 17em;
+  height: 109%;
+}
+
 banner-content {
   width: 90%;
 }
@@ -107,6 +113,21 @@ banner-content {
 
 .stay-healthy {
   margin: 0;
+  display: inline-block;
+}
+
+.card-01 {
+  width: 100%;
+  display: inline-block;
+}
+
+.card-02 {
+  width: 100%;
+  display: inline-block;
+}
+
+.card-03 {
+  width: 100%;
   display: inline-block;
 }
 
@@ -163,6 +184,7 @@ nav li {
 body {
   font-family: "Georiga", serif;
   margin: 0;
+  padding: 0;
   background-color: #777;
 }
 
@@ -180,7 +202,7 @@ body {
 }
 
 .img-flex {
-  width: 100%;
+  width: 92%;
   display: block;
 }
 
@@ -189,13 +211,9 @@ body {
   padding: inherit;
 }
 
-.il {
-  margin-left: 3em;
-}
-
 a {
   text-decoration: none;
-  padding: 0.5em 1em 0.5em;
+  padding: 1em 1em 0em;
   margin: 0;
   color: #cfcfcf;
   display: inline-block;
@@ -204,10 +222,6 @@ a {
 a:hover {
   background-color: #cc1465;
   color: #fff;
-}
-
-img {
-  margin: inherit;
 }
 
 h1 {
@@ -231,7 +245,6 @@ p {
 }
 
 .card-1, .card-2, .card-3 {
-  width: 32%;
   display: inline-block;
 }
 
@@ -241,7 +254,8 @@ section {
 
 .banner-content {
   background-color: #e2e2e2;
-  padding: 1em;
+  margin: 1em;
+  padding: 0;
 }
 
 img {
@@ -256,8 +270,10 @@ img {
 footer {
   background-color: #cfcfcf;
   font-size: 0.75rem;
-  padding: 1.5em 17.25em 1.5em;
-  height: 25em;
+}
+
+ul {
+  width: 100%;
 }
 
 .icon-1 {
@@ -279,9 +295,31 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
+  header {
+    border: 2px solid #7e7;
+    background-color: #7e7;
+    font-family: "Georiga", serif;
+    overflow: hidden;
+    padding: 1em 2em 40px;
+    width: 128%;
+    position: relative;
+  }
+
+  .img-flex {
+    width:118%;
+    display: block;
+  }
+
   body {
     font-size: 110%;
     line-height: 1.5;
+  }
+
+  .card-1, .card-2, .card-3 {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .picture-card-5 {
@@ -293,14 +331,70 @@ footer {
   .source {
     float: left;
   }
+
+  .card-01 {
+    width: 80%;
+    display: inline-block;
+    margin: 10%;
+  }
+
+  .card-02 {
+    width: 80%;
+    display: inline-block;
+    margin: 10%;
+  }
+
+  .card-03 {
+    width: 80%;
+    display: inline-block;
+    margin: 10%;
+  }
+
+  .card-1, .card-2, .card-3 {
+    width: 120%;
+    display: inline-block;
+  }
+
+  footer {
+    background-color: #cfcfcf;
+    font-size: 0.75rem;
+    width: 140%;
+  }
+
+  .icon-1 {
+    width: 10%;
+  }
+
+  .icon-2 {
+    width: 10%;
+  }
+
+  .icon-3 {
+    width: 10%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
+  header {
+    border: 2px solid #7e7;
+    background-color: #7e7;
+    font-family: "Georiga", serif;
+    overflow: hidden;
+    padding: 1em 2em 40px;
+    width: 130%;
+    margin: 0;
+    position: relative;
+  }
+
+  .img-flex {
+    display: block;
+    width: 100%;
+  }
+
   body {
-    font-size: 120%;
+    font-size: 110%;
     line-height: 1.4;
-    padding: 1em;
   }
 
   .banner-content {
@@ -318,15 +412,49 @@ footer {
     padding: inherit;
   }
 
-  body {
-    font-size: 110%;
+  .card-1, .card-2, .card-3 {
+    width: 30%;
+    display: inline-block;
+    margin-left: 4em;
+    margin-right: -3em;
+  }
+
+  .card-picture-4 {
+    width: 110%;
+    display: inline-block;
+  }
+
+  .card-picture-5 {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .card-picture-6 {
+    width: 110%;
+    display: inline-block;
+  }
+
+  .card-picture-7 {
+    width: 110%;
+    display: inline-block;
+  }
+
+  p {
+    margin-right: -1em;
+    margin-left: 3em;
+  }
+
+  footer {
+    background-color: #cfcfcf;
+    font-size: 0.75rem;
+    width: 140%;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
   body {
-    font-size: 130%;
+    font-size: 120%;
   }
 
   .nav {
